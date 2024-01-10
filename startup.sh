@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 bundle check || bundle install
 

@@ -84,6 +84,27 @@ $pale-blue-colour: #d2e2f1;
   }
 }
 
+.homepage-header__sub {
+  @include govuk-typography-weight-bold;
+
+  color: $pale-blue-colour;
+  font-size: 32px;
+  font-size: govuk-px-to-rem(32);
+  margin: 0;
+  line-height: 1.07;
+  display: block;
+
+  @include govuk-media-query($from: tablet) {
+    font-size: 32px;
+    font-size: govuk-px-to-rem(32);
+  }
+
+  @include govuk-media-query($from: desktop) {
+    font-size: 32px;
+    font-size: govuk-px-to-rem(32);
+  }
+}
+
 .homepage-header__search {
   @include govuk-media-query($from: mobile) {
     @include govuk-grid-column($width: two-thirds);

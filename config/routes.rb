@@ -6,6 +6,10 @@ Rails.application.routes.draw do
 
   mount GovukPublishingComponents::Engine, at: "/component-guide"
 
+  get "/teams/:team" => "teams#index"
+  # get "/teams/:team/:responsibility" => "responsibilities#index"
+  get "/teams/*path" => "responsibilities#index"
+
   get "/random" => "random#random_page"
 
   get "/healthcheck/live", to: proc { [200, {}, %w[OK]] }
