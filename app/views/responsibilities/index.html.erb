@@ -1,5 +1,5 @@
 <% add_view_stylesheet("homepage")%>
-<% content_for :title, t("teams.#{@translation_key}.intro_title.text") %>
+<% content_for :title, t("#{@translation_key}.intro_title.text") %>
 <% content_for :body_classes, "homepage" %><%# The `homepage` body class is required for emergency banner. %>
 
 <main id="content" role="main">
@@ -18,7 +18,7 @@
           <%= render "responsibilities/services_and_information", locals: { index_section: 3, index_section_count: index_section_count } %>
         </div>
         <div class="govuk-grid-column-full govuk-grid-column-one-third-from-desktop">
-          <%= render "homepage/promotion_slots", locals: { index_section: 4, index_section_count: index_section_count } %>
+          <%= render "responsibilities/promotion_slots", locals: { index_section: 4, index_section_count: index_section_count } %>
         </div>
       </div>
     </div>

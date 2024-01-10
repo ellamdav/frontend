@@ -520,7 +520,7 @@ en:
     index:
       brexit: 'Brexit: check what you need to do'
       covid: 'Coronavirus (COVID-19): guidance'
-      featured: Featured
+      featured: Popular links
       government_activity: Government activity
       government_activity_description: Find out what the government is doing
       intro_html: The Multi-channel Digital Tax&nbsp;Platform
@@ -831,6 +831,11 @@ en:
         text: MDTP | Platform UI
         short_text: PlatUI
       intro_html: Platform UI libraries, shared services and tooling
+      promotion_slots:
+        - text: Chat with PlatUI on Slack
+          title: Contact us
+          href: https://hmrcdigital.slack.com/archives/CJMUM9AG3
+          image_src: homepage/slack.png
       categories:
         - title: Frontend libraries & tooling
           description: Libraries and related tooling that enable teams to produce GDS-compliant, accessible digital services with a consistent look and feel
@@ -873,6 +878,11 @@ en:
             text: MDTP | Platform UI | Contact | Services
             short_text: Contact Services
           intro_html: Shared services that teams can integrate with, for users to report issues and provide feedback
+          promotion_slots:
+            - text: Read the combined service runbook
+              title: Live Service Runbook
+              href: https://confluence.tools.tax.service.gov.uk/x/m5HYC
+              image_src: homepage/runbook.png
           categories:
             - title: contact-frontend
               description: Frontend UI containing forms for users to report issues and submit feedback

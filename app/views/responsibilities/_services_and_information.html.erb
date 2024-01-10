@@ -6,12 +6,12 @@
           font_size: "l",
           heading_level: 2,
           margin_bottom: 6,
-          text: t("teams.#{@translation_key}.intro_title.short_text"),
+          text: t("#{@translation_key}.intro_title.short_text"),
         } %>
       </div>
 
       <ul class="homepage-services-and-info__list" data-module="gem-track-click ga4-link-tracker">
-        <% t("teams.#{@translation_key}.categories").each_with_index do | item, index | %>
+        <% t("#{@translation_key}.categories").each_with_index do | item, index | %>
           <%= render partial: "homepage/chevron_card", locals: {
             description: item[:description],
             link: item[:link],
